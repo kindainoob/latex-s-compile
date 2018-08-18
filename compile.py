@@ -3,7 +3,7 @@ import os
 
 args = sys.argv
 
-# 引数が11つでないならコンパイル
+# 引数が1つでないならコンパイル
 if len(args) != 1:
     # 引数の数を得る
     length = len(args)-1
